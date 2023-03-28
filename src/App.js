@@ -3,9 +3,11 @@ import "./App.css";
 import Select, { components } from "react-select";
 
 function App() {
+const handleOnSearchChange = (searchData) => {};
+
   return (
     <div className="container">
-      <Search />
+      <Search onSearchChange={handleOnSearchChange} />
     </div>
   );
 }
