@@ -3,7 +3,9 @@ import "./App.css";
 import Select, { components } from "react-select";
 
 function App() {
-const handleOnSearchChange = (searchData) => {};
+const handleOnSearchChange = (searchData) => {
+  const [lat, lon] = searchData.value.split(" ");
+};
 
   return (
     <div className="container">
