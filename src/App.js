@@ -3,11 +3,8 @@ import "./App.css";
 import Select, { components } from "react-select";
 import CurrentWeather from "./components/current-weather/current-weather";
 
-
 function App() {
-const handleOnSearchChange = (searchData) => {
-  const [lat, lon] = searchData.value.split(" ");
-};
+  const handleOnSearchChange = (searchData) => {};
 
   return (
     <div className="container">
