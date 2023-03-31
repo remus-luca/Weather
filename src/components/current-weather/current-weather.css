@@ -1,7 +1,7 @@
 .weather {
   width: 300px;
   border-radius: 6px;
-  box-shadow: 10px -2px 20px 2px rgb(0 0 0 /30%);
+  box-shadow: 10px -2px 20px 2px rgb(0 0 0 / 30%);
   color: #fff;
   background-color: #333;
   margin: 20px auto 0 auto;
@@ -19,8 +19,8 @@
   font-weight: 600;
   font-size: 18px;
   line-height: 1;
-  letter-spacing: 1px;
   margin: 0;
+  letter-spacing: 1px;
 }
 
 .weather-description {
@@ -64,3 +64,6 @@
   font-size: 12px;
 }
 
+.parameter-label.top {
+  border-bottom: 1px solid #fff;
+}
